@@ -1,0 +1,26 @@
+Clear
+
+New Circuit.substation_p2uhs12_69 bus1=p2uhs12_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect Transformers.dss
+Redirect p2uhs12_1247--p2udt5222/Transformers.dss
+Redirect p2uhs12_1247--p2udt5984/Transformers.dss
+Redirect Regulators.dss
+Redirect p2uhs12_1247--p2udt5222/Loads.dss
+Redirect p2uhs12_1247--p2udt5984/Loads.dss
+Redirect LineCodes.dss
+Redirect p2uhs12_1247--p2udt5222/LineCodes.dss
+Redirect p2uhs12_1247--p2udt5984/LineCodes.dss
+Redirect Lines.dss
+Redirect p2uhs12_1247--p2udt5222/Lines.dss
+Redirect p2uhs12_1247--p2udt5984/Lines.dss
+Redirect p2uhs12_1247--p2udt5222/Capacitors.dss
+Redirect p2uhs12_1247--p2udt5984/Capacitors.dss
+
+Set Voltagebases=[0.2080002494301389, 0.48, 7.199560000000001, 12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+
+Solve

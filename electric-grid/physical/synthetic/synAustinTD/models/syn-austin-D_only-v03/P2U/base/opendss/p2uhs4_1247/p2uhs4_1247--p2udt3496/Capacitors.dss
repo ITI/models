@@ -1,0 +1,12 @@
+New Capacitor.p2uc35 Bus1=p2udt5695 phases=3 Kv=12.47 conn=Wye Kvar=300.0
+
+New CapControl.p2uc35 Capacitor=p2uc35 Element=Line.padswitch(r:p2udt5695-p2udt8745)p2u_39188 Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+
+New Capacitor.p2uc37 Bus1=p2umv19 phases=3 Kv=12.47 conn=Wye Kvar=300.0
+
+New CapControl.p2uc37 Capacitor=p2uc37 Element=Line.l(r:p2udt8527-p2umv19) Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+
+New Capacitor.p2uc39 Bus1=p2udt8385 phases=3 Kv=12.47 conn=Wye Kvar=300.0
+
+New CapControl.p2uc39 Capacitor=p2uc39 Element=Line.l(r:p2udt7169-p2udt8385) Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+
