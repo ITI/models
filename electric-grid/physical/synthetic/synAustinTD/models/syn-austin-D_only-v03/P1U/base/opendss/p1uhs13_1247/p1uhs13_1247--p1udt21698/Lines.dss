@@ -1,0 +1,8 @@
+New Line.l(r:p1udt21698-p1uhs13_1247) Units=km Length=0.10608999999999999 bus1=p1udt21698-p1uhs13_1247x.1.2.3 bus2=p1udt21698-p1uhs13_1247x_b1_1.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_12_47_0_3_3_3_3
+
+New Line.l(r:p1udt21698lv-p1ulv45537) Units=km Length=0.001 bus1=p1udt21698lv.1.2.3 bus2=p1ulv45537.1.2.3 switch=n enabled=y phases=3 Linecode=3P_UG_AL_4/0_15_0_416_0_3_3_3_3
+
+New Line.l(r:p1udt21698-p1uhs13_1247)_disconnect Units=km Length=0.001 bus1=p1udt21698-p1uhs13_1247x_b1_1.1.2.3 bus2=p1udt21698-p1uhs13_1247x_b2_1.1.2.3 switch=y enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_12_47_0_3_3_3_3
+
+New Line.l(r:p1udt21698-p1uhs13_1247)_cont Units=km Length=0.96381 bus1=p1udt21698-p1uhs13_1247x_b2_1.1.2.3 bus2=p1udt21698.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_12_47_0_3_3_3_3
+

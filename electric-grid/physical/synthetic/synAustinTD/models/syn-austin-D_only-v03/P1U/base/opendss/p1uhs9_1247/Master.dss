@@ -1,0 +1,81 @@
+Clear
+
+New Circuit.substation_p1uhs9_69 bus1=p1uhs9_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect Transformers.dss
+Redirect p1uhs9_1247--p1udt19234/Transformers.dss
+Redirect p1uhs9_1247--p1udt13121/Transformers.dss
+Redirect p1uhs9_1247--p1udt20362/Transformers.dss
+Redirect p1uhs9_1247--p1udt20692/Transformers.dss
+Redirect p1uhs9_1247--p1udt25123/Transformers.dss
+Redirect p1uhs9_1247--p1udt20546/Transformers.dss
+Redirect p1uhs9_1247--p1udt387/Transformers.dss
+Redirect p1uhs9_1247--p1udt22357/Transformers.dss
+Redirect p1uhs9_1247--p1udt21523/Transformers.dss
+Redirect p1uhs9_1247--p1udt21819/Transformers.dss
+Redirect p1uhs9_1247--p1udt13187/Transformers.dss
+Redirect p1uhs9_1247--p1udt4409/Transformers.dss
+Redirect p1uhs9_1247--p1udt22325/Transformers.dss
+Redirect p1uhs9_1247--p1udt6854/Transformers.dss
+Redirect Regulators.dss
+Redirect p1uhs9_1247--p1udt19234/Loads.dss
+Redirect p1uhs9_1247--p1udt13121/Loads.dss
+Redirect p1uhs9_1247--p1udt20362/Loads.dss
+Redirect p1uhs9_1247--p1udt20692/Loads.dss
+Redirect p1uhs9_1247--p1udt25123/Loads.dss
+Redirect p1uhs9_1247--p1udt20546/Loads.dss
+Redirect p1uhs9_1247--p1udt387/Loads.dss
+Redirect p1uhs9_1247--p1udt22357/Loads.dss
+Redirect p1uhs9_1247--p1udt21523/Loads.dss
+Redirect p1uhs9_1247--p1udt21819/Loads.dss
+Redirect p1uhs9_1247--p1udt13187/Loads.dss
+Redirect p1uhs9_1247--p1udt4409/Loads.dss
+Redirect p1uhs9_1247--p1udt22325/Loads.dss
+Redirect p1uhs9_1247--p1udt6854/Loads.dss
+Redirect p1uhs9_1247--p1udt6854/LineCodes.dss
+Redirect LineCodes.dss
+Redirect p1uhs9_1247--p1udt19234/LineCodes.dss
+Redirect p1uhs9_1247--p1udt13121/LineCodes.dss
+Redirect p1uhs9_1247--p1udt20362/LineCodes.dss
+Redirect p1uhs9_1247--p1udt20546/LineCodes.dss
+Redirect p1uhs9_1247--p1udt25123/LineCodes.dss
+Redirect p1uhs9_1247--p1udt387/LineCodes.dss
+Redirect p1uhs9_1247--p1udt22357/LineCodes.dss
+Redirect p1uhs9_1247--p1udt21523/LineCodes.dss
+Redirect p1uhs9_1247--p1udt21819/LineCodes.dss
+Redirect p1uhs9_1247--p1udt13187/LineCodes.dss
+Redirect p1uhs9_1247--p1udt4409/LineCodes.dss
+Redirect p1uhs9_1247--p1udt22325/LineCodes.dss
+Redirect p1uhs9_1247--p1udt20692/LineCodes.dss
+Redirect p1uhs9_1247--p1udt6854/Lines.dss
+Redirect Lines.dss
+Redirect p1uhs9_1247--p1udt19234/Lines.dss
+Redirect p1uhs9_1247--p1udt13121/Lines.dss
+Redirect p1uhs9_1247--p1udt20362/Lines.dss
+Redirect p1uhs9_1247--p1udt20546/Lines.dss
+Redirect p1uhs9_1247--p1udt25123/Lines.dss
+Redirect p1uhs9_1247--p1udt387/Lines.dss
+Redirect p1uhs9_1247--p1udt22357/Lines.dss
+Redirect p1uhs9_1247--p1udt21523/Lines.dss
+Redirect p1uhs9_1247--p1udt21819/Lines.dss
+Redirect p1uhs9_1247--p1udt13187/Lines.dss
+Redirect p1uhs9_1247--p1udt4409/Lines.dss
+Redirect p1uhs9_1247--p1udt22325/Lines.dss
+Redirect p1uhs9_1247--p1udt20692/Lines.dss
+Redirect p1uhs9_1247--p1udt13121/Capacitors.dss
+Redirect p1uhs9_1247--p1udt25123/Capacitors.dss
+Redirect p1uhs9_1247--p1udt387/Capacitors.dss
+Redirect p1uhs9_1247--p1udt21523/Capacitors.dss
+Redirect p1uhs9_1247--p1udt21819/Capacitors.dss
+Redirect p1uhs9_1247--p1udt13187/Capacitors.dss
+Redirect p1uhs9_1247--p1udt4409/Capacitors.dss
+Redirect p1uhs9_1247--p1udt22325/Capacitors.dss
+Redirect p1uhs9_1247--p1udt6854/Capacitors.dss
+
+Set Voltagebases=[0.2080002494301389, 0.48, 7.199560000000001, 12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+
+Solve

@@ -1,0 +1,12 @@
+New Line.l(r:p1udt22357lv-p1ulv48696) Units=km Length=0.0454689 bus1=p1udt22357lv.1.2.3 bus2=p1ulv48696.1.2.3 switch=n enabled=y phases=3 Linecode=3P_UG_AL_350kcmil_15_0_416_0_3_3_3_3
+
+New Line.l(r:p1udt22357-p1uhs9_1247) Units=km Length=0.44125899999999996 bus1=p1udt22357-p1uhs9_1247x.1.2.3 bus2=p1udt22357-p1uhs9_1247x_b1_1.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_12_47_0_3_3_3_3
+
+New Line.l(r:p1udt22357-p1udt22844) Units=km Length=0.178915 bus1=p1udt22357-p1udt22844x.1.2.3 bus2=p1udt22844.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_1033kcmil_Curlew_12.47_1_3_3_3_3
+
+New Line.elbswitch(r:p1udt22357-p1udt22844)p1u_265809 Units=km Length=0.001 bus1=p1udt22357.1.2.3 bus2=p1udt22357-p1udt22844x.1.2.3 switch=y enabled=n phases=3 Linecode=elbswitch_3_3_3_3
+
+New Line.l(r:p1udt22357-p1uhs9_1247)_disconnect Units=km Length=0.001 bus1=p1udt22357-p1uhs9_1247x_b1_1.1.2.3 bus2=p1udt22357-p1uhs9_1247x_b2_1.1.2.3 switch=y enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_12_47_0_3_3_3_3
+
+New Line.l(r:p1udt22357-p1uhs9_1247)_cont Units=km Length=3.980330999999999 bus1=p1udt22357-p1uhs9_1247x_b2_1.1.2.3 bus2=p1udt22357.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_12_47_0_3_3_3_3
+

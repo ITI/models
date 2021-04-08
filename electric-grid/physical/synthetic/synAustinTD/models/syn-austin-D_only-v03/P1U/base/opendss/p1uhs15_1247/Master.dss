@@ -1,0 +1,30 @@
+Clear
+
+New Circuit.substation_p1uhs15_69 bus1=p1uhs15_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect Transformers.dss
+Redirect p1uhs15_1247--p1udt17622/Transformers.dss
+Redirect p1uhs15_1247--p1udt9658/Transformers.dss
+Redirect p1uhs15_1247--p1udt2795/Transformers.dss
+Redirect Regulators.dss
+Redirect p1uhs15_1247--p1udt17622/Loads.dss
+Redirect p1uhs15_1247--p1udt9658/Loads.dss
+Redirect p1uhs15_1247--p1udt2795/Loads.dss
+Redirect LineCodes.dss
+Redirect p1uhs15_1247--p1udt17622/LineCodes.dss
+Redirect p1uhs15_1247--p1udt9658/LineCodes.dss
+Redirect p1uhs15_1247--p1udt2795/LineCodes.dss
+Redirect Lines.dss
+Redirect p1uhs15_1247--p1udt17622/Lines.dss
+Redirect p1uhs15_1247--p1udt9658/Lines.dss
+Redirect p1uhs15_1247--p1udt2795/Lines.dss
+Redirect p1uhs15_1247--p1udt17622/Capacitors.dss
+Redirect p1uhs15_1247--p1udt9658/Capacitors.dss
+
+Set Voltagebases=[0.2080002494301389, 0.48, 7.199560000000001, 12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+
+Solve

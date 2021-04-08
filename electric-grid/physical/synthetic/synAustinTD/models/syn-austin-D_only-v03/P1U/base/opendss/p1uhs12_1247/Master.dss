@@ -1,0 +1,44 @@
+Clear
+
+New Circuit.substation_p1uhs12_69 bus1=p1uhs12_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect Transformers.dss
+Redirect p1uhs12_1247--p1udt14325/Transformers.dss
+Redirect p1uhs12_1247--p1udt11164/Transformers.dss
+Redirect p1uhs12_1247--p1udt8950/Transformers.dss
+Redirect p1uhs12_1247--p1udt8568/Transformers.dss
+Redirect p1uhs12_1247--p1udt23696/Transformers.dss
+Redirect p1uhs12_1247--p1udt23867/Transformers.dss
+Redirect Regulators.dss
+Redirect p1uhs12_1247--p1udt14325/Loads.dss
+Redirect p1uhs12_1247--p1udt11164/Loads.dss
+Redirect p1uhs12_1247--p1udt8950/Loads.dss
+Redirect p1uhs12_1247--p1udt8568/Loads.dss
+Redirect p1uhs12_1247--p1udt23696/Loads.dss
+Redirect p1uhs12_1247--p1udt23867/Loads.dss
+Redirect LineCodes.dss
+Redirect p1uhs12_1247--p1udt14325/LineCodes.dss
+Redirect p1uhs12_1247--p1udt11164/LineCodes.dss
+Redirect p1uhs12_1247--p1udt8950/LineCodes.dss
+Redirect p1uhs12_1247--p1udt8568/LineCodes.dss
+Redirect p1uhs12_1247--p1udt23696/LineCodes.dss
+Redirect p1uhs12_1247--p1udt23867/LineCodes.dss
+Redirect Lines.dss
+Redirect p1uhs12_1247--p1udt14325/Lines.dss
+Redirect p1uhs12_1247--p1udt11164/Lines.dss
+Redirect p1uhs12_1247--p1udt8950/Lines.dss
+Redirect p1uhs12_1247--p1udt8568/Lines.dss
+Redirect p1uhs12_1247--p1udt23696/Lines.dss
+Redirect p1uhs12_1247--p1udt23867/Lines.dss
+Redirect p1uhs12_1247--p1udt14325/Capacitors.dss
+Redirect p1uhs12_1247--p1udt11164/Capacitors.dss
+Redirect p1uhs12_1247--p1udt8568/Capacitors.dss
+Redirect p1uhs12_1247--p1udt23867/Capacitors.dss
+
+Set Voltagebases=[0.2080002494301389, 0.48, 7.199560000000001, 12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+
+Solve

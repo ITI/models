@@ -1,0 +1,36 @@
+Clear
+
+New Circuit.substation_p1uhs20_69 bus1=p1uhs20_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect p1uhs20_1247--p1udt10621/Transformers.dss
+Redirect Transformers.dss
+Redirect p1uhs20_1247--p1udt1456/Transformers.dss
+Redirect p1uhs20_1247--p1udt16446/Transformers.dss
+Redirect p1uhs20_1247--p1udt2578/Transformers.dss
+Redirect Regulators.dss
+Redirect p1uhs20_1247--p1udt10621/Loads.dss
+Redirect p1uhs20_1247--p1udt1456/Loads.dss
+Redirect p1uhs20_1247--p1udt16446/Loads.dss
+Redirect p1uhs20_1247--p1udt2578/Loads.dss
+Redirect p1uhs20_1247--p1udt10621/LineCodes.dss
+Redirect LineCodes.dss
+Redirect p1uhs20_1247--p1udt1456/LineCodes.dss
+Redirect p1uhs20_1247--p1udt16446/LineCodes.dss
+Redirect p1uhs20_1247--p1udt2578/LineCodes.dss
+Redirect p1uhs20_1247--p1udt10621/Lines.dss
+Redirect Lines.dss
+Redirect p1uhs20_1247--p1udt1456/Lines.dss
+Redirect p1uhs20_1247--p1udt16446/Lines.dss
+Redirect p1uhs20_1247--p1udt2578/Lines.dss
+Redirect p1uhs20_1247--p1udt10621/Capacitors.dss
+Redirect p1uhs20_1247--p1udt1456/Capacitors.dss
+Redirect p1uhs20_1247--p1udt16446/Capacitors.dss
+Redirect p1uhs20_1247--p1udt2578/Capacitors.dss
+
+Set Voltagebases=[0.2080002494301389, 0.48, 7.199560000000001, 12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+
+Solve
