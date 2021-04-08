@@ -1,0 +1,34 @@
+Clear
+
+New Circuit.substation_p1rhs5_69 bus1=p1rhs5_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect Transformers.dss
+Redirect p1rhs5_1247--p1rdt7147/Transformers.dss
+Redirect p1rhs5_1247--p1rdt7748/Transformers.dss
+Redirect p1rhs5_1247--p1rdt1339/Transformers.dss
+Redirect p1rhs5_1247--p1rdt8064/Transformers.dss
+Redirect Regulators.dss
+Redirect p1rhs5_1247--p1rdt1339/Regulators.dss
+Redirect p1rhs5_1247--p1rdt8064/Regulators.dss
+Redirect p1rhs5_1247--p1rdt7748/Loads.dss
+Redirect p1rhs5_1247--p1rdt7147/Loads.dss
+Redirect p1rhs5_1247--p1rdt1339/Loads.dss
+Redirect p1rhs5_1247--p1rdt8064/Loads.dss
+Redirect LineCodes.dss
+Redirect p1rhs5_1247--p1rdt7147/LineCodes.dss
+Redirect p1rhs5_1247--p1rdt7748/LineCodes.dss
+Redirect p1rhs5_1247--p1rdt1339/LineCodes.dss
+Redirect p1rhs5_1247--p1rdt8064/LineCodes.dss
+Redirect Lines.dss
+Redirect p1rhs5_1247--p1rdt7147/Lines.dss
+Redirect p1rhs5_1247--p1rdt7748/Lines.dss
+Redirect p1rhs5_1247--p1rdt1339/Lines.dss
+Redirect p1rhs5_1247--p1rdt8064/Lines.dss
+
+Set Voltagebases=[0.2080002494301389, 0.48, 7.199560000000001, 12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+
+Solve

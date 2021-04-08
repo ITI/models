@@ -1,0 +1,33 @@
+Clear
+
+New Circuit.substation_p1rhs2_69 bus1=p1rhs2_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect Transformers.dss
+Redirect p1rhs2_1247--p1rdt1528/Transformers.dss
+Redirect p1rhs2_1247--p1rdt4805/Transformers.dss
+Redirect p1rhs2_1247--p1rdt3426/Transformers.dss
+Redirect p1rhs2_1247--p1rdt3039/Transformers.dss
+Redirect Regulators.dss
+Redirect p1rhs2_1247--p1rdt1528/Regulators.dss
+Redirect p1rhs2_1247--p1rdt4805/Loads.dss
+Redirect p1rhs2_1247--p1rdt1528/Loads.dss
+Redirect p1rhs2_1247--p1rdt3426/Loads.dss
+Redirect p1rhs2_1247--p1rdt3039/Loads.dss
+Redirect LineCodes.dss
+Redirect p1rhs2_1247--p1rdt1528/LineCodes.dss
+Redirect p1rhs2_1247--p1rdt4805/LineCodes.dss
+Redirect p1rhs2_1247--p1rdt3426/LineCodes.dss
+Redirect p1rhs2_1247--p1rdt3039/LineCodes.dss
+Redirect Lines.dss
+Redirect p1rhs2_1247--p1rdt1528/Lines.dss
+Redirect p1rhs2_1247--p1rdt4805/Lines.dss
+Redirect p1rhs2_1247--p1rdt3426/Lines.dss
+Redirect p1rhs2_1247--p1rdt3039/Lines.dss
+
+Set Voltagebases=[0.2080002494301389, 0.48, 7.199560000000001, 12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+
+Solve

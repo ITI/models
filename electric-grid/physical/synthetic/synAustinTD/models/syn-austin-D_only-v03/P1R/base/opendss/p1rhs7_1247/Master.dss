@@ -1,0 +1,30 @@
+Clear
+
+New Circuit.substation_p1rhs7_69 bus1=p1rhs7_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect p1rhs7_1247--p1rdt1161/Transformers.dss
+Redirect Transformers.dss
+Redirect p1rhs7_1247--p1rdt1291/Transformers.dss
+Redirect p1rhs7_1247--p1rdt7669/Transformers.dss
+Redirect Regulators.dss
+Redirect p1rhs7_1247--p1rdt1291/Regulators.dss
+Redirect p1rhs7_1247--p1rdt7669/Regulators.dss
+Redirect p1rhs7_1247--p1rdt1161/Loads.dss
+Redirect p1rhs7_1247--p1rdt1291/Loads.dss
+Redirect p1rhs7_1247--p1rdt7669/Loads.dss
+Redirect p1rhs7_1247--p1rdt1161/LineCodes.dss
+Redirect LineCodes.dss
+Redirect p1rhs7_1247--p1rdt1291/LineCodes.dss
+Redirect p1rhs7_1247--p1rdt7669/LineCodes.dss
+Redirect p1rhs7_1247--p1rdt1161/Lines.dss
+Redirect Lines.dss
+Redirect p1rhs7_1247--p1rdt1291/Lines.dss
+Redirect p1rhs7_1247--p1rdt7669/Lines.dss
+
+Set Voltagebases=[0.2080002494301389, 0.48, 7.199560000000001, 12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+
+Solve
