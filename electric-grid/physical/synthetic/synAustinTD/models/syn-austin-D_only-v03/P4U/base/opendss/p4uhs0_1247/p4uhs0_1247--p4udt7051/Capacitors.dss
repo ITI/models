@@ -1,0 +1,4 @@
+New Capacitor.p4uc1 Bus1=p4udt19851 phases=3 Kv=12.47 conn=Wye Kvar=450.0
+
+New CapControl.p4uc1 Capacitor=p4uc1 Element=Line.l(r:p4udt11563-p4udt19851) Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+

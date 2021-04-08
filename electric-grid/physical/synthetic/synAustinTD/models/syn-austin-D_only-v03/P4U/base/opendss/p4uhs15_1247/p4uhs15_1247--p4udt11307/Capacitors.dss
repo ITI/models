@@ -1,0 +1,16 @@
+New Capacitor.p4uc85 Bus1=p4udt16541 phases=3 Kv=12.47 conn=Wye Kvar=450.0
+
+New CapControl.p4uc85 Capacitor=p4uc85 Element=Line.padswitch(r:p4udt16541-p4udt5116)p4u_75167 Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+
+New Capacitor.p4uc86 Bus1=p4udt7967 phases=3 Kv=12.47 conn=Wye Kvar=300.0
+
+New CapControl.p4uc86 Capacitor=p4uc86 Element=Line.padswitch(r:p4udt17103-p4udt7967)p4u_75239 Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+
+New Capacitor.p4uc87 Bus1=p4udt16354 phases=3 Kv=12.47 conn=Wye Kvar=300.0
+
+New CapControl.p4uc87 Capacitor=p4uc87 Element=Line.padswitch(r:p4udt16354-p4udt3001)p4u_75349 Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+
+New Capacitor.p4uc89 Bus1=p4udt6075 phases=3 Kv=12.47 conn=Wye Kvar=300.0
+
+New CapControl.p4uc89 Capacitor=p4uc89 Element=Line.l(r:p4udt14757-p4udt6075) Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+

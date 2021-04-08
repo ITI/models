@@ -1,0 +1,27 @@
+Classification,Validation Metric,Typical,Uncommon,Rare,Grade,Typical Region,Uncommon Region,Included Utilities,# of Validation Feeders,Units,Method
+Load specification,Distribution Transformer Total Capacity,0.8674698795180723,0.13253012048192772,0,Pass,"[0, 1.731], [4.94, 31.009]","[0, 38.629]","ACE, DPL, Duke, Pepco, SCE Ditto",5923,MVA,hdr
+Load specification,Total Demand,0.4578313253012048,0.46987951807228917,0.07228915662650602,Partially Pass,"[4180.979, 13793.4]","[576.842, 17589.5]","Duke, Loveland, SCE Ditto",1330,kW,quantile
+Load specification,Total Reactive Power,0,0.7349397590361446,0.26506024096385544,Fail,"[3524.285, 13757.9]","[484.57, 17226.75]","Duke, Loveland, SCE Ditto",1330,kVAr,quantile
+Physical layout/topology,Average Degree,0.927710843373494,0.060240963855421686,0.012048192771084338,Pass,"[1.985, 2.058]","[1.6, 2.083]","Duke, Loveland, SCE Ditto",5020,Degree,quantile
+Physical layout/topology,Char Path Length,0.8313253012048193,0.14457831325301204,0.024096385542168676,Pass,"[12.35, 95.219]","[2, 134.389]","Duke, Loveland, SCE Ditto",5020,NA,quantile
+Physical layout/topology,Graph Diameter,0.8554216867469879,0.12048192771084337,0.024096385542168676,Pass,"[32, 260]","[4, 371]","Duke, Loveland, SCE Ditto",5020,NA,quantile
+Realistic electrical design and equipment parameters,LV 1 Phase Line Length,1,0,0,Pass,"[0, 34.747]","[0, 44.305]",Loveland,57,Miles,quantile
+Realistic electrical design and equipment parameters,LV 3 Phase Line Length,0.9518072289156626,0.04819277108433735,0,Pass,"[0, 0.997]","[0, 2.135]","Duke, Loveland",58,Miles,quantile
+Realistic electrical design and equipment parameters,MV 1 & 2 Phase Line Length,1,0,0,Pass,"[0, 35.356]","[0, 101.387], [108.723, 124.62]","ACE, APS, DPL, Duke, Loveland, Pepco, SCE Ditto, SCE Original",10632,Miles,hdr
+Realistic electrical design and equipment parameters,Ratio of MV 1 & 2 Phase Line Length to Number of Customers,0.9397590361445783,0.060240963855421686,0,Pass,"[0.001, 0.124]","[0, 0.24]","APS, Duke, SCE Original",9221,Miles per Customer,quantile
+Realistic electrical design and equipment parameters,Ratio of MV 3 Phase Line Length to Number of Customers,0.9156626506024096,0.08433734939759036,0,Pass,"[0.004, 0.091]","[0.002, 0.771]","Duke, SCE Original",8556,Miles per Customer,quantile
+Realistic electrical design and equipment parameters,MV 3 Phase Line Length,1,0,0,Pass,"[0, 20.838]","[0, 43.108], [44.346, 45.583]","ACE, DPL, Duke, Loveland, Pepco, SCE Ditto, SCE Original",10149,Miles,hdr
+Realistic electrical design and equipment parameters,LV Overhead 1 Phase Line Length,1,0,0,Pass,"[0, 7.439]","[0, 30.258]",Loveland,57,Miles,quantile
+Realistic electrical design and equipment parameters,LV Overhead 3 Phase Line Length,1,0,0,Pass,"[0, 0.171]","[0, 0.488]","Duke, Loveland",58,Miles,quantile
+Realistic electrical design and equipment parameters,MV Overhead 1 & 2 Phase Line Length,0.9397590361445783,0.060240963855421686,0,Pass,"[0, 19.084]","[0, 70.287], [74.225, 75.013], [80.527, 84.466]","ACE, APS, DPL, Duke, Loveland, Pepco, SCE Ditto, SCE Original",10099,Miles,hdr
+Realistic electrical design and equipment parameters,MV Overhead 3 Phase Line Length,1,0,0,Pass,"[0, 17.734]","[0, 39.699]","ACE, DPL, Duke, Loveland, Pepco, SCE Ditto, SCE Original",9747,Miles,hdr
+Realistic electrical design and equipment parameters,Percent of Overhead 1 & 2 Phase Lines,0.8607594936708861,0.12658227848101267,0.012658227848101266,Pass,"[0, 0.225], [0.458, 1]","[0, 0.301], [0.313, 1]","ACE, APS, DPL, Duke, Loveland, Pepco, SCE Ditto, SCE Original",9350,% Overhead,hdr
+Realistic electrical design and equipment parameters,Percent of Overhead 3 Phase Lines,0.9518072289156626,0.04819277108433735,0,Pass,"[0.403, 1]","[0, 0.097], [0.18, 1]","ACE, DPL, Duke, Loveland, Pepco, SCE Ditto, SCE Original",9492,% Overhead,hdr
+Realistic physical size,Number of Customers,0.9036144578313253,0.07228915662650602,0.024096385542168676,Pass,"[94.149, 2607]","[8, 11836.825]","APS, Duke, SCE Original",9734,Number of Customers,quantile
+Reconfiguration options,Number of Breakers,1,0,0,Pass,"[0, 1]","[0, 1]","ACE, DPL, Duke, Loveland, Pepco, SCE Ditto",6013,# of Breakers,quantile
+Reconfiguration options,Number of Fuses,0.9036144578313253,0.0963855421686747,0,Pass,"[4, 187]","[0, 281]","ACE, DPL, Duke, Loveland, Pepco, SCE Ditto",6013,# of Fuses,quantile
+Reconfiguration options,Number of Reclosers,1,0,0,Pass,"[0, 5]","[0, 9]","ACE, DPL, Duke, Loveland, Pepco, SCE Ditto",6013,# of Reclosers,quantile
+Reconfiguration options,Number of Regulators,1,0,0,Pass,"[0, 3]","[0, 8]","ACE, APS, DPL, Duke, Loveland, Pepco, SCE Ditto, SCE Original",11574,# of Regulators,quantile
+Reconfiguration options,Number of Sectionalizers,1,0,0,Pass,"[0, 1]","[0, 3]","Duke, Loveland, SCE Ditto",5020,# of Sectionalizers,quantile
+Reconfiguration options,Number of Switches,0.7108433734939759,0.2289156626506024,0.060240963855421686,Partially Pass,"[3, 392]","[0, 634.05]","Duke, Loveland, SCE Ditto",5020,# of Switches,quantile
+Voltage levels & control schemes,Number of Capacitor Banks,1,0,0,Pass,"[0, 5]","[0, 7]","ACE, APS, DPL, Duke, Loveland, Pepco, SCE Ditto, SCE Original",11574,# of Capacitor Banks,quantile

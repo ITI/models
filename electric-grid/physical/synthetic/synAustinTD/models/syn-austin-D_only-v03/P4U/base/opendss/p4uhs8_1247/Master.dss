@@ -1,0 +1,26 @@
+Clear
+
+New Circuit.substation_p4uhs8_69 bus1=p4uhs8_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect Transformers.dss
+Redirect p4uhs8_1247--p4udt1728/Transformers.dss
+Redirect p4uhs8_1247--p4udt14683/Transformers.dss
+Redirect Regulators.dss
+Redirect p4uhs8_1247--p4udt1728/Loads.dss
+Redirect p4uhs8_1247--p4udt14683/Loads.dss
+Redirect LineCodes.dss
+Redirect p4uhs8_1247--p4udt1728/LineCodes.dss
+Redirect p4uhs8_1247--p4udt14683/LineCodes.dss
+Redirect Lines.dss
+Redirect p4uhs8_1247--p4udt1728/Lines.dss
+Redirect p4uhs8_1247--p4udt14683/Lines.dss
+Redirect p4uhs8_1247--p4udt1728/Capacitors.dss
+Redirect p4uhs8_1247--p4udt14683/Capacitors.dss
+
+Set Voltagebases=[0.2080002494301389, 0.48, 7.199560000000001, 12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+
+Solve

@@ -1,0 +1,14 @@
+New Line.l(r:p4udt14059lv-p4ulv19710) Units=km Length=0.0123882 bus1=p4udt14059lv.1.2 bus2=p4ulv19710.1.2 switch=n enabled=y phases=2 Linecode=1P_OH_AL_2/0_Rucina_0_416_0_2_2_2_2
+
+New Line.l(r:p4udt14059lv-p4ulv20612) Units=km Length=0.0123882 bus1=p4udt14059lv.1.2 bus2=p4ulv20612.1.2 switch=n enabled=y phases=2 Linecode=1P_OH_AL_2/0_Rucina_0_416_0_2_2_2_2
+
+New Line.l(r:p4udt14059-p4udt20593) Units=km Length=0.0613393 bus1=p4udt14059-p4udt20593x.3 bus2=p4udt14059.3 switch=n enabled=y phases=1 Linecode=1P_OH_AL_ACSR_#2_Sparrow_12_47_0_1_1_1_1
+
+New Line.l(r:p4udt20593lv-p4ulv34938) Units=km Length=0.001 bus1=p4udt20593lv.1.2.3 bus2=p4ulv34938.1.2.3 switch=n enabled=y phases=3 Linecode=3P_UG_AL_350kcmil_15_0_416_0_3_3_3_3
+
+New Line.l(r:p4udt20593-p4uhs11_1247)_s1 Units=km Length=0.196123 bus1=p4udt20593-p4uhs11_1247x.1.2.3 bus2=p4udt20593.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_12_47_0_3_3_3_3
+
+New Line.fuse(r:p4udt14059-p4udt20593)p4u_81590 Units=km Length=0.001 bus1=p4udt20593.3 bus2=p4udt14059-p4udt20593x.3 switch=n enabled=y phases=1 Linecode=fuse_1_1_1_1
+
+New Fuse.Fuse_fuse(r:p4udt14059-p4udt20593)p4u_81590 monitoredobj=Line.fuse(r:p4udt14059-p4udt20593)p4u_81590 enabled=y ratedcurrent=100.0
+
