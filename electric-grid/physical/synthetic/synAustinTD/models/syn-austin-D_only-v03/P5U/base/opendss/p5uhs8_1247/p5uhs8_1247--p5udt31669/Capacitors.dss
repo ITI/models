@@ -1,0 +1,8 @@
+New Capacitor.p5uc43 Bus1=p5udt29662 phases=3 Kv=12.47 conn=Wye Kvar=450.0
+
+New CapControl.p5uc43 Capacitor=p5uc43 Element=Line.l(r:p5udt16360-p5udt29662) Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+
+New Capacitor.p5uc46 Bus1=p5udt16001 phases=3 Kv=12.47 conn=Wye Kvar=450.0
+
+New CapControl.p5uc46 Capacitor=p5uc46 Element=Line.l(r:p5udt16001-p5udt17374) Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+

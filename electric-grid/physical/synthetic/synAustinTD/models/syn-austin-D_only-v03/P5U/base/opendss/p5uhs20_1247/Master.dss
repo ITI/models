@@ -1,0 +1,26 @@
+Clear
+
+New Circuit.substation_p5uhs20_69 bus1=p5uhs20_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect p5uhs20_1247--p5udt22271/Transformers.dss
+Redirect Transformers.dss
+Redirect p5uhs20_1247--p5udt30630/Transformers.dss
+Redirect Regulators.dss
+Redirect p5uhs20_1247--p5udt22271/Loads.dss
+Redirect p5uhs20_1247--p5udt30630/Loads.dss
+Redirect p5uhs20_1247--p5udt22271/LineCodes.dss
+Redirect LineCodes.dss
+Redirect p5uhs20_1247--p5udt30630/LineCodes.dss
+Redirect p5uhs20_1247--p5udt22271/Lines.dss
+Redirect Lines.dss
+Redirect p5uhs20_1247--p5udt30630/Lines.dss
+Redirect p5uhs20_1247--p5udt22271/Capacitors.dss
+Redirect p5uhs20_1247--p5udt30630/Capacitors.dss
+
+Set Voltagebases=[0.2080002494301389, 0.48, 7.199560000000001, 12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+
+Solve

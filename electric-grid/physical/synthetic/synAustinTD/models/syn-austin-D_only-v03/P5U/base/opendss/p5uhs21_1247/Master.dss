@@ -1,0 +1,36 @@
+Clear
+
+New Circuit.substation_p5uhs21_69 bus1=p5uhs21_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect Transformers.dss
+Redirect p5uhs21_1247--p5udt27230/Transformers.dss
+Redirect p5uhs21_1247--p5udt24017/Transformers.dss
+Redirect p5uhs21_1247--p5udt30121/Transformers.dss
+Redirect p5uhs21_1247--p5udt26112/Transformers.dss
+Redirect Regulators.dss
+Redirect p5uhs21_1247--p5udt30121/Loads.dss
+Redirect p5uhs21_1247--p5udt24017/Loads.dss
+Redirect p5uhs21_1247--p5udt27230/Loads.dss
+Redirect p5uhs21_1247--p5udt26112/Loads.dss
+Redirect LineCodes.dss
+Redirect p5uhs21_1247--p5udt27230/LineCodes.dss
+Redirect p5uhs21_1247--p5udt24017/LineCodes.dss
+Redirect p5uhs21_1247--p5udt30121/LineCodes.dss
+Redirect p5uhs21_1247--p5udt26112/LineCodes.dss
+Redirect Lines.dss
+Redirect p5uhs21_1247--p5udt27230/Lines.dss
+Redirect p5uhs21_1247--p5udt24017/Lines.dss
+Redirect p5uhs21_1247--p5udt30121/Lines.dss
+Redirect p5uhs21_1247--p5udt26112/Lines.dss
+Redirect p5uhs21_1247--p5udt30121/Capacitors.dss
+Redirect p5uhs21_1247--p5udt24017/Capacitors.dss
+Redirect p5uhs21_1247--p5udt27230/Capacitors.dss
+Redirect p5uhs21_1247--p5udt26112/Capacitors.dss
+
+Set Voltagebases=[0.2080002494301389, 0.48, 7.199560000000001, 12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+
+Solve

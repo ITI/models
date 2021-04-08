@@ -1,0 +1,8 @@
+New Capacitor.p5uc84 Bus1=p5udt24666 phases=3 Kv=12.47 conn=Wye Kvar=600.0
+
+New CapControl.p5uc84 Capacitor=p5uc84 Element=Line.padswitch(r:p5udt12139-p5udt24666)p5u_135943 Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+
+New Capacitor.p5uc85 Bus1=p5udt13457 phases=3 Kv=12.47 conn=Wye Kvar=450.0
+
+New CapControl.p5uc85 Capacitor=p5uc85 Element=Line.padswitch(r:p5udt13457-p5udt8154)p5u_136135 Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+
