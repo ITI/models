@@ -1,0 +1,22 @@
+New Line.l(r:p3udt23531-p3umv21) Units=km Length=0.21437300000000004 bus1=p3udt23531.1.2.3 bus2=p3umv21.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_12_47_0_3_3_3_3
+
+New Line.l(r:p3udt23531-p3uhs3_1247) Units=km Length=0.328613 bus1=p3udt23531-p3uhs3_1247x.1.2.3 bus2=p3udt23531-p3uhs3_1247x_b1_1.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_12_47_0_3_3_3_3
+
+New Line.l(r:p3udt23531lv-p3ulv41715) Units=km Length=0.0117675 bus1=p3udt23531lv.1.2.3 bus2=p3ulv41715.1.2.3 switch=n enabled=y phases=3 Linecode=3P_UG_AL_750kcmil_25_0_416_0_3_3_3_3
+
+New Line.l(r:p3umv21-p3umv8) Units=km Length=0.08661040000000002 bus1=p3umv21.1.2.3 bus2=p3umv21_b1_1.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_12_47_0_3_3_3_3
+
+New Line.l(r:p3udt24967lv-p3ulv46481) Units=km Length=0.0103851 bus1=p3udt24967lv.1.2.3 bus2=p3ulv46481.1.2.3 switch=n enabled=y phases=3 Linecode=3P_UG_AL_750kcmil_25_0_416_0_3_3_3_3
+
+New Line.l(r:p3udt24967-p3umv21) Units=km Length=0.112628 bus1=p3umv21.1.2.3 bus2=p3udt24967.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_12_47_0_3_3_3_3
+
+New Line.l(r:p3udt24967-p3umv1) Units=km Length=0.287933 bus1=p3udt24967-p3umv1x.1.2.3 bus2=p3udt24967.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_1033kcmil_Curlew_12.47_1_3_3_3_3
+
+New Line.l(r:p3udt23531-p3uhs3_1247)_disconnect Units=km Length=0.001 bus1=p3udt23531-p3uhs3_1247x_b1_1.1.2.3 bus2=p3udt23531-p3uhs3_1247x_b2_1.1.2.3 switch=y enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_12_47_0_3_3_3_3
+
+New Line.l(r:p3udt23531-p3uhs3_1247)_cont Units=km Length=2.966517 bus1=p3udt23531-p3uhs3_1247x_b2_1.1.2.3 bus2=p3udt23531.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_12_47_0_3_3_3_3
+
+New Line.l(r:p3umv21-p3umv8)_disconnect Units=km Length=0.001 bus1=p3umv21_b1_1.1.2.3 bus2=p3umv21_b2_1.1.2.3 switch=y enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_12_47_0_3_3_3_3
+
+New Line.l(r:p3umv21-p3umv8)_cont Units=km Length=0.7884936 bus1=p3umv21_b2_1.1.2.3 bus2=p3umv8.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_AL_ACSR_4/0_Penguin_12_47_0_3_3_3_3
+

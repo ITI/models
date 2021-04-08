@@ -1,0 +1,31 @@
+Clear
+
+New Circuit.substation_p3uhs20_69 bus1=p3uhs20_69 pu=1.0 basekV=69.0 R1=1e-05 X1=1e-05 R0=1e-05 X0=1e-05
+
+Redirect Transformers.dss
+Redirect p3uhs20_1247--p3udt30735/Transformers.dss
+Redirect p3uhs20_1247--p3udt15957/Transformers.dss
+Redirect p3uhs20_1247--p3udt25015/Transformers.dss
+Redirect Regulators.dss
+Redirect p3uhs20_1247--p3udt30735/Loads.dss
+Redirect p3uhs20_1247--p3udt15957/Loads.dss
+Redirect p3uhs20_1247--p3udt25015/Loads.dss
+Redirect LineCodes.dss
+Redirect p3uhs20_1247--p3udt30735/LineCodes.dss
+Redirect p3uhs20_1247--p3udt15957/LineCodes.dss
+Redirect p3uhs20_1247--p3udt25015/LineCodes.dss
+Redirect Lines.dss
+Redirect p3uhs20_1247--p3udt30735/Lines.dss
+Redirect p3uhs20_1247--p3udt15957/Lines.dss
+Redirect p3uhs20_1247--p3udt25015/Lines.dss
+Redirect p3uhs20_1247--p3udt30735/Capacitors.dss
+Redirect p3uhs20_1247--p3udt15957/Capacitors.dss
+Redirect p3uhs20_1247--p3udt25015/Capacitors.dss
+
+Set Voltagebases=[0.2080002494301389, 0.48, 7.199560000000001, 12.47, 69.0]
+
+Calcvoltagebases
+
+Buscoords Buscoords.dss
+
+Solve

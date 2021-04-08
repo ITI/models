@@ -1,0 +1,18 @@
+New Line.sb1_p3uhs25_1247_35 Units=km Length=0.001511744 bus1=sb1_p3uhs25_1247_bus_1_2.1.2.3 bus2=p3udt13676-p3uhs25_1247x.1.2.3 switch=n enabled=y phases=3 Linecode=3P_OH_Code8_3_3_3
+
+New Line.sb1_p3uhs25_1247_33 Units=km Length=0.001 bus1=sb1_p3uhs25_1247_node_1_5.1.2.3 bus2=sb1_p3uhs25_1247_node_1_6.1.2.3 switch=y enabled=y phases=3 Linecode=BREAKER_13KV_3_3_3_3
+
+New Line.sb1_p3uhs25_1247_31 Units=km Length=0.001 bus1=sb1_p3uhs25_1247_bus_1_1.1.2.3 bus2=sb1_p3uhs25_1247_bus_1_2.1.2.3 switch=y enabled=n phases=3 Linecode=DISCONNECT_SWITCH_13KV_3_3_3_3
+
+New Line.sb1_p3uhs25_1247_350 Units=km Length=0.001 bus1=sb1_p3uhs25_1247_node_1_5.1.2.3 bus2=sb1_p3uhs25_1247_bus_1_1.1.2.3 switch=y enabled=y phases=3 Linecode=DISCONNECT_SWITCH_13KV_3_3_3_3
+
+New Line.sb1_p3uhs25_1247_348 Units=km Length=0.001 bus1=sb1_p3uhs25_1247_node_1_2.1.2.3 bus2=p3uhs25_69.1.2.3 switch=y enabled=y phases=3 Linecode=DISCONNECT_SWITCH_69KV_3_3_3_3
+
+New Line.sb1_p3uhs25_1247_30 Units=km Length=0.001 bus1=sb1_p3uhs25_1247_node_1_4.1.2.3 bus2=sb1_p3uhs25_1247_bus_1_1.1.2.3 switch=y enabled=y phases=3 Linecode=LOADBREAK_SWITCH_13KV_3_3_3_3
+
+New Line.sb1_p3uhs25_1247_34 Units=km Length=0.001 bus1=sb1_p3uhs25_1247_node_1_6.1.2.3 bus2=sb1_p3uhs25_1247_bus_1_2.1.2.3 switch=y enabled=y phases=3 Linecode=DISCONNECT_SWITCH_13KV_3_3_3_3
+
+New Line.sb1_p3uhs25_1247_361 Units=km Length=0.001 bus1=sb1_p3uhs25_1247_node_1_2.1.2.3 bus2=sb1_p3uhs25_1247_node_1_3.1.2.3 switch=n enabled=y phases=3 Linecode=FUSE_1_69KV_3_3_3_3
+
+New Fuse.Fuse_sb1_p3uhs25_1247_361 monitoredobj=Line.sb1_p3uhs25_1247_361 enabled=y ratedcurrent=600.0
+

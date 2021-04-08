@@ -1,0 +1,61 @@
+Classification,Validation Metric,Partition,Partition Groups,Typical,Uncommon,Rare,Grade,Typical Region,Uncommon Region,Included Utilities,# of Validation Feeders,Units,Method
+Load specification,Distribution Transformer Total Capacity,"[0, 1610.198) MVA per sq. mile",1,0.6,0.4,0,Pass,"[0.174, 4.039], [5.457, 27.231]","[0, 34.447]","ACE, DPL, Duke, Pepco",1735,MVA,hdr
+Load specification,Distribution Transformer Total Capacity,"[1610.198, 3802.112] MVA per sq. mile",1,0.7777777777777778,0.2222222222222222,0,Pass,"[3.975, 8.383], [10.248, 30.425]","[1.262, 36.868]","ACE, DPL, Duke, Pepco",1930,MVA,hdr
+Load specification,Distribution Transformer Total Capacity,> 3802.112 MVA per sq. mile,1,0.8125,0.1875,0,Pass,"[6.725, 33.872]","[2.439, 47.751]","ACE, DPL, Duke, Pepco",1990,MVA,hdr
+Load specification,Total Demand,"[0, 1610.198) MVA per sq. mile",1,0,0.9,0.1,Partially Pass,"[4320.6, 13077.4]","[1038.075, 15760.7]",Duke,808,kW,quantile
+Load specification,Total Demand,"[1610.198, 3802.112] MVA per sq. mile",1,0.1111111111111111,0.16666666666666666,0.7222222222222222,Fail,"[7008, 14363]","[5219.65, 16923.625]",Duke,395,kW,quantile
+Load specification,Total Demand,> 3802.112 MVA per sq. mile,1,0.9375,0.0625,0,Pass,"[4872.9, 19929.6]","[2162.35, 23368.725]",Duke,32,kW,quantile
+Load specification,Total Reactive Power,"[0, 1610.198) MVA per sq. mile",1,0,0.1,0.9,Fail,"[4320.6, 13077.4]","[1038.075, 15760.7]",Duke,808,kVAr,quantile
+Load specification,Total Reactive Power,"[1610.198, 3802.112] MVA per sq. mile",1,0,0,1,Fail,"[7008, 14363]","[5219.65, 16923.625]",Duke,395,kVAr,quantile
+Load specification,Total Reactive Power,> 3802.112 MVA per sq. mile,1,0,0.421875,0.578125,Fail,"[4872.9, 19929.6]","[2162.35, 23368.725]",Duke,32,kVAr,quantile
+Physical layout/topology,Average Degree,"[0, 1610.198) MVA per sq. mile",1,0.2,0.6,0.2,Fail,"[1.998, 2.06]","[1.952, 2.076]",Duke,1627,Degree,quantile
+Physical layout/topology,Average Degree,"[1610.198, 3802.112] MVA per sq. mile",1,0.6666666666666666,0.3333333333333333,0,Pass,"[1.995, 2.061]","[1.983, 2.081]",Duke,1652,Degree,quantile
+Physical layout/topology,Average Degree,> 3802.112 MVA per sq. mile,1,0.96875,0.03125,0,Pass,"[1.991, 2.047]","[1.918, 2.103]",Duke,1416,Degree,quantile
+Realistic electrical design and equipment parameters,MV 1 & 2 Phase Line Length,"[0, 1610.198) MVA per sq. mile",1,1,0,0,Pass,"[0, 57.161]","[0, 130.849]","ACE, DPL, Duke, Pepco",1686,Miles,hdr
+Realistic electrical design and equipment parameters,MV 1 & 2 Phase Line Length,"[1610.198, 3802.112] MVA per sq. mile",1,1,0,0,Pass,"[0, 111.625]","[0, 219.267]","ACE, DPL, Duke, Pepco",1900,Miles,hdr
+Realistic electrical design and equipment parameters,MV 1 & 2 Phase Line Length,> 3802.112 MVA per sq. mile,1,1,0,0,Pass,"[0, 57.873]","[0, 109.796], [115.566, 122.297]","ACE, DPL, Duke, Pepco",1905,Miles,hdr
+Realistic electrical design and equipment parameters,Ratio of MV 1 & 2 Phase Line Length to Number of Customers,"[0, 1610.198) MVA per sq. mile",1,0.6,0.4,0,Pass,"[0.017, 0.205]","[0, 0.306]",Duke,1577,Miles per Customer,quantile
+Realistic electrical design and equipment parameters,Ratio of MV 1 & 2 Phase Line Length to Number of Customers,"[1610.198, 3802.112] MVA per sq. mile",1,0.3888888888888889,0.6111111111111112,0,Pass,"[0.011, 0.184]","[0, 0.244]",Duke,1630,Miles per Customer,quantile
+Realistic electrical design and equipment parameters,Ratio of MV 1 & 2 Phase Line Length to Number of Customers,> 3802.112 MVA per sq. mile,1,0.96875,0.03125,0,Pass,"[0.005, 0.098]","[0, 0.273]",Duke,1250,Miles per Customer,quantile
+Realistic electrical design and equipment parameters,Ratio of MV 3 Phase Line Length to Number of Customers,"[0, 1610.198) MVA per sq. mile",1,0.7,0.3,0,Pass,"[0.008, 0.099]","[0.002, 0.848]",Duke,1577,Miles per Customer,quantile
+Realistic electrical design and equipment parameters,Ratio of MV 3 Phase Line Length to Number of Customers,"[1610.198, 3802.112] MVA per sq. mile",1,0.8888888888888888,0.1111111111111111,0,Pass,"[0.008, 0.091]","[0, 0.321]",Duke,1630,Miles per Customer,quantile
+Realistic electrical design and equipment parameters,Ratio of MV 3 Phase Line Length to Number of Customers,> 3802.112 MVA per sq. mile,1,0.265625,0.734375,0,Pass,"[0.011, 0.633]","[0, 6.266]",Duke,1250,Miles per Customer,quantile
+Realistic electrical design and equipment parameters,MV 3 Phase Line Length,"[0, 1610.198) MVA per sq. mile",1,1,0,0,Pass,"[0.139, 18.416]","[0, 35.522]","ACE, DPL, Duke, Pepco",1735,Miles,hdr
+Realistic electrical design and equipment parameters,MV 3 Phase Line Length,"[1610.198, 3802.112] MVA per sq. mile",1,1,0,0,Pass,"[0, 36.395]","[0, 60.512]","ACE, DPL, Duke, Pepco",1926,Miles,hdr
+Realistic electrical design and equipment parameters,MV 3 Phase Line Length,> 3802.112 MVA per sq. mile,1,1,0,0,Pass,"[0, 33.582]","[0, 50.075]","ACE, DPL, Duke, Pepco",1981,Miles,hdr
+Realistic electrical design and equipment parameters,MV Overhead 1 & 2 Phase Line Length,"[0, 1610.198) MVA per sq. mile",1,1,0,0,Pass,"[0, 38.989]","[0, 95.808], [103.219, 113.924]","ACE, DPL, Duke, Pepco",1685,Miles,hdr
+Realistic electrical design and equipment parameters,MV Overhead 1 & 2 Phase Line Length,"[1610.198, 3802.112] MVA per sq. mile",1,1,0,0,Pass,"[0, 69.048]","[0, 144.008], [150.746, 162.538]","ACE, DPL, Duke, Pepco",1898,Miles,hdr
+Realistic electrical design and equipment parameters,MV Overhead 1 & 2 Phase Line Length,> 3802.112 MVA per sq. mile,1,1,0,0,Pass,"[0, 23.348]","[0, 49.576]","ACE, DPL, Duke, Pepco",1902,Miles,hdr
+Realistic electrical design and equipment parameters,MV Overhead 3 Phase Line Length,"[0, 1610.198) MVA per sq. mile",1,1,0,0,Pass,"[0, 16.577]","[0, 34.582]","ACE, DPL, Duke, Pepco",1722,Miles,hdr
+Realistic electrical design and equipment parameters,MV Overhead 3 Phase Line Length,"[1610.198, 3802.112] MVA per sq. mile",1,1,0,0,Pass,"[0, 33.007]","[0, 56.313]","ACE, DPL, Duke, Pepco",1918,Miles,hdr
+Realistic electrical design and equipment parameters,MV Overhead 3 Phase Line Length,> 3802.112 MVA per sq. mile,1,1,0,0,Pass,"[0, 26.09]","[0, 39.885]","ACE, DPL, Duke, Pepco",1969,Miles,hdr
+Realistic electrical design and equipment parameters,Percent of Overhead 1 & 2 Phase Lines,"[0, 1610.198) MVA per sq. mile",1,0.8888888888888888,0.1111111111111111,0,Pass,"[0, 0.162], [0.416, 1]","[0, 1]","ACE, DPL, Duke, Pepco",1589,% Overhead,hdr
+Realistic electrical design and equipment parameters,Percent of Overhead 1 & 2 Phase Lines,"[1610.198, 3802.112] MVA per sq. mile",1,0.9411764705882353,0.058823529411764705,0,Pass,"[0.028, 0.135], [0.302, 1]","[0, 1]","ACE, DPL, Duke, Pepco",1820,% Overhead,hdr
+Realistic electrical design and equipment parameters,Percent of Overhead 1 & 2 Phase Lines,> 3802.112 MVA per sq. mile,1,0.9206349206349206,0.07936507936507936,0,Pass,"[0.026, 0.458], [0.548, 0.982]","[0, 1]","ACE, DPL, Duke, Pepco",1659,% Overhead,hdr
+Realistic electrical design and equipment parameters,Percent of Overhead 3 Phase Lines,"[0, 1610.198) MVA per sq. mile",1,1,0,0,Pass,"[0.669, 1]","[0.28, 1]","ACE, DPL, Duke, Pepco",1670,% Overhead,hdr
+Realistic electrical design and equipment parameters,Percent of Overhead 3 Phase Lines,"[1610.198, 3802.112] MVA per sq. mile",1,0.8888888888888888,0.1111111111111111,0,Pass,"[0.644, 1]","[0.005, 0.024], [0.267, 1]","ACE, DPL, Duke, Pepco",1871,% Overhead,hdr
+Realistic electrical design and equipment parameters,Percent of Overhead 3 Phase Lines,> 3802.112 MVA per sq. mile,1,0.609375,0.328125,0.0625,Partially Pass,"[0.536, 1]","[0, 0.079], [0.299, 1]","ACE, DPL, Duke, Pepco",1887,% Overhead,hdr
+Realistic physical size,Number of Customers,"[0, 1610.198) MVA per sq. mile",1,0.6,0.4,0,Pass,"[92.399, 839.466]","[4, 1263.73]",Duke,1577,Number of Customers,quantile
+Realistic physical size,Number of Customers,"[1610.198, 3802.112] MVA per sq. mile",1,0.6666666666666666,0.3333333333333333,0,Pass,"[113.333, 1253.1]","[13.45, 1643.675]",Duke,1630,Number of Customers,quantile
+Realistic physical size,Number of Customers,> 3802.112 MVA per sq. mile,1,0.96875,0.03125,0,Pass,"[9, 2019]","[1, 3260]",Duke,1250,Number of Customers,quantile
+Reconfiguration options,Number of Breakers,"[0, 1610.198) MVA per sq. mile",1,1,0,0,Pass,"[0, 1]","[0, 1]","ACE, DPL, Duke, Pepco",1735,# of Breakers,quantile
+Reconfiguration options,Number of Breakers,"[1610.198, 3802.112] MVA per sq. mile",1,1,0,0,Pass,"[0, 1]","[0, 1]","ACE, DPL, Duke, Pepco",1930,# of Breakers,quantile
+Reconfiguration options,Number of Breakers,> 3802.112 MVA per sq. mile,1,1,0,0,Pass,"[0, 1]","[0, 1]","ACE, DPL, Duke, Pepco",1990,# of Breakers,quantile
+Reconfiguration options,Number of Fuses,"[0, 1610.198) MVA per sq. mile",1,0.5,0.4,0.1,Partially Pass,"[10, 217.6]","[1, 312.95]","ACE, DPL, Duke, Pepco",1735,# of Fuses,quantile
+Reconfiguration options,Number of Fuses,"[1610.198, 3802.112] MVA per sq. mile",1,0.3888888888888889,0.5,0.1111111111111111,Fail,"[22, 213]","[5, 318.55]","ACE, DPL, Duke, Pepco",1930,# of Fuses,quantile
+Reconfiguration options,Number of Fuses,> 3802.112 MVA per sq. mile,1,0.96875,0.015625,0.015625,Pass,"[9, 138]","[2, 198.275]","ACE, DPL, Duke, Pepco",1990,# of Fuses,quantile
+Reconfiguration options,Number of Reclosers,"[0, 1610.198) MVA per sq. mile",1,1,0,0,Pass,"[0, 8]","[0, 13]","ACE, DPL, Duke, Pepco",1735,# of Reclosers,quantile
+Reconfiguration options,Number of Reclosers,"[1610.198, 3802.112] MVA per sq. mile",1,1,0,0,Pass,"[0, 5]","[0, 8]","ACE, DPL, Duke, Pepco",1930,# of Reclosers,quantile
+Reconfiguration options,Number of Reclosers,> 3802.112 MVA per sq. mile,1,1,0,0,Pass,"[0, 3.1]","[0, 6]","ACE, DPL, Duke, Pepco",1990,# of Reclosers,quantile
+Reconfiguration options,Number of Regulators,"[0, 1610.198) MVA per sq. mile",1,1,0,0,Pass,"[0, 8]","[0, 13]","ACE, DPL, Duke, Pepco",1735,# of Regulators,quantile
+Reconfiguration options,Number of Regulators,"[1610.198, 3802.112] MVA per sq. mile",1,1,0,0,Pass,"[0, 6]","[0, 9.775]","ACE, DPL, Duke, Pepco",1930,# of Regulators,quantile
+Reconfiguration options,Number of Regulators,> 3802.112 MVA per sq. mile,1,1,0,0,Pass,"[0, 3]","[0, 6]","ACE, DPL, Duke, Pepco",1990,# of Regulators,quantile
+Reconfiguration options,Number of Sectionalizers,"[0, 1610.198) MVA per sq. mile",1,1,0,0,Pass,"[0, 2]","[0, 4]",Duke,1627,# of Sectionalizers,quantile
+Reconfiguration options,Number of Sectionalizers,"[1610.198, 3802.112] MVA per sq. mile",1,1,0,0,Pass,"[0, 0]","[0, 2]",Duke,1652,# of Sectionalizers,quantile
+Reconfiguration options,Number of Sectionalizers,> 3802.112 MVA per sq. mile,1,1,0,0,Pass,"[0, 0]","[0, 0]",Duke,1416,# of Sectionalizers,quantile
+Reconfiguration options,Number of Switches,"[0, 1610.198) MVA per sq. mile",1,0.7,0.2,0.1,Partially Pass,"[7, 520]","[1, 757]",Duke,1627,# of Switches,quantile
+Reconfiguration options,Number of Switches,"[1610.198, 3802.112] MVA per sq. mile",1,0.7777777777777778,0.16666666666666666,0.05555555555555555,Partially Pass,"[5, 404.7]","[1, 634.625]",Duke,1652,# of Switches,quantile
+Reconfiguration options,Number of Switches,> 3802.112 MVA per sq. mile,1,0.015625,0.015625,0.96875,Fail,"[3, 30]","[0.375, 68.625]",Duke,1416,# of Switches,quantile
+Voltage levels & control schemes,Number of Capacitor Banks,"[0, 1610.198) MVA per sq. mile",1,1,0,0,Pass,"[0, 4]","[0, 5]","ACE, DPL, Duke, Pepco",1735,# of Capacitor Banks,quantile
+Voltage levels & control schemes,Number of Capacitor Banks,"[1610.198, 3802.112] MVA per sq. mile",1,1,0,0,Pass,"[0, 4]","[0, 5]","ACE, DPL, Duke, Pepco",1930,# of Capacitor Banks,quantile
+Voltage levels & control schemes,Number of Capacitor Banks,> 3802.112 MVA per sq. mile,1,0.953125,0.03125,0.015625,Pass,"[0, 4]","[0, 5]","ACE, DPL, Duke, Pepco",1990,# of Capacitor Banks,quantile

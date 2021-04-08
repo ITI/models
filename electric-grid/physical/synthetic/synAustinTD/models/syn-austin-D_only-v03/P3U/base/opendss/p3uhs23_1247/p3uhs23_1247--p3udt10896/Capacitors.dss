@@ -1,0 +1,8 @@
+New Capacitor.p3uc125 Bus1=p3udt3043 phases=3 Kv=12.47 conn=Wye Kvar=450.0
+
+New CapControl.p3uc125 Capacitor=p3uc125 Element=Line.padswitch(r:p3udt3043-p3udt5702)p3u_201755 Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+
+New Capacitor.p3uc126 Bus1=p3udt10838 phases=3 Kv=12.47 conn=Wye Kvar=300.0
+
+New CapControl.p3uc126 Capacitor=p3uc126 Element=Line.padswitch(r:p3udt10838-p3udt1482)p3u_201411 Terminal=1 delay=100.0 Type=voltage Vmin=120.5 Vmax=125.0 Ptratio=59.99631547328862 Ctratio=100.0
+
